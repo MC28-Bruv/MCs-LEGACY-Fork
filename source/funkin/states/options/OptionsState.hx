@@ -173,7 +173,7 @@ class OptionsState extends MusicBeatState
 			titleText.antialiasing = ClientPrefs.globalAntialiasing;
 			add(titleText);
 			
-			versionText = new FlxText(480, artImage.y + artImage.height + 20, 700, Main.LEGACY_VERSION);
+			versionText = new FlxText(480, artImage.y + artImage.height + 20, 700, Main.LEGACY_VERSION + '\n' + Main.FORK_VERSION);
 			versionText.setFormat(Paths.font("vcr"), 28, FlxColor.WHITE, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			versionText.borderSize = 1.5;
 			versionText.antialiasing = ClientPrefs.globalAntialiasing;
