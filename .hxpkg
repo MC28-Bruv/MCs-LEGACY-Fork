@@ -23,7 +23,8 @@
             },
             {
                 "name": "hscript",
-                "version": "2.6.0"
+                "link": "https://github.com/FNF-CNE-Devs/hscript-improved.git",
+                "branch": "48ec0f4b013a4e5e18d6ce1456be7b3c3f12a1fa"
             },
             {
                 "name": "hscript-iris",
