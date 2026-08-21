@@ -63,6 +63,9 @@
 		<assets path="assets/legacy" rename="assets"/>
 	</section>
 
+	<!-- make sure youre using the legacy fork so it doesnt break!! -->
+	<define name="MC_FORK"/>
+
 	<!--OpenAL config-->	<!-- appreciate you cyn0x8 and smokey for finding this -->
 	<section if="desktop">
 		<assets path="projFiles/alsoft.ini" rename="alsoft.ini" type="text" if="windows"/>
@@ -91,6 +94,8 @@
 	<haxelib name="json2object"/>
 	<haxelib name="json5hx"/>
 
+	<haxelib name="flixel3d" />
+	
 	<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED" version="1.2.4"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
 
