@@ -89,17 +89,17 @@
                 "branch": "a8c26f18463c98da32f744c214fe02273e1823fa"
             },
             {
+                "name": "flixel3d",
+                "link": "https://github.com/CodenameCrew/flixel3d",
+                "branch": "9224f1e553538138f3f8efbb7a66f4f5ef4c7255"
+            },
+            {
                 "name": "hxjsonast",
                 "version": "1.1.0"
             },
             {
                 "name": "json5hx",
                 "version": "1.0.2"
-            },
-            {
-                "name": "flixel3d",
-                "link": "https://github.com/CodenameCrew/flixel3d",
-                "branch": "9224f1e553538138f3f8efbb7a66f4f5ef4c7255"
             }
         ]
     }
