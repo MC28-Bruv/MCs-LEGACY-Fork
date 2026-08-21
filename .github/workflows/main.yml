@@ -58,6 +58,7 @@ jobs: # FUCK MY LIFE BROOOOO
                   Remove-Item -Recurse -Force -LiteralPath .haxelib/lime
                 }
                 Run git clone https://github.com/FunkinCrew/lime .haxelib/lime/git
+                Run haxelib git flixel3d https://github.com/CodenameCrew/flixel3d
                 Run git -C .haxelib/lime/git fetch --all --tags --prune
                 Run git -C .haxelib/lime/git checkout ${{ env.LIME_HASH }}
                 Run git -C .haxelib/lime/git submodule sync --recursive
@@ -115,6 +116,7 @@ jobs: # FUCK MY LIFE BROOOOO
                 haxelib run hxpkg install
                 rm -rf .haxelib/lime
                 git clone https://github.com/FunkinCrew/lime .haxelib/lime/git
+                haxelib git flixel3d https://github.com/CodenameCrew/flixel3d
                 git -C .haxelib/lime/git checkout ${{ env.LIME_HASH }}
                 git -C .haxelib/lime/git submodule update --init --recursive --force
                 haxelib dev lime .haxelib/lime/git
@@ -152,6 +154,7 @@ jobs: # FUCK MY LIFE BROOOOO
                 haxelib run hxpkg install
                 rm -rf .haxelib/lime
                 git clone https://github.com/FunkinCrew/lime .haxelib/lime/git
+                haxelib git flixel3d https://github.com/CodenameCrew/flixel3d
                 git -C .haxelib/lime/git checkout ${{ env.LIME_HASH }}
                 git -C .haxelib/lime/git submodule update --init --recursive --force
                 haxelib dev lime .haxelib/lime/git
@@ -189,6 +192,7 @@ jobs: # FUCK MY LIFE BROOOOO
                 haxelib run hxpkg install
                 rm -rf .haxelib/lime
                 git clone https://github.com/FunkinCrew/lime .haxelib/lime/git
+                haxelib git flixel3d https://github.com/CodenameCrew/flixel3d
                 git -C .haxelib/lime/git checkout ${{ env.LIME_HASH }}
                 git -C .haxelib/lime/git submodule update --init --recursive --force
                 haxelib dev lime .haxelib/lime/git
